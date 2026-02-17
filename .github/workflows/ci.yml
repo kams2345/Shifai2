@@ -44,7 +44,7 @@ jobs:
 
       - name: Upload Test Results
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: ios-test-results
           path: shifai-ios/build/reports
@@ -85,7 +85,7 @@ jobs:
 
       - name: Upload Reports
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: android-reports
           path: |
