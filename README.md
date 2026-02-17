@@ -4,8 +4,18 @@
 
 [![iOS](https://img.shields.io/badge/iOS-17%2B-blue)](shifai-ios/)
 [![Android](https://img.shields.io/badge/Android-API%2029%2B-green)](shifai-android/)
-[![Tests](https://img.shields.io/badge/tests-480%2B-brightgreen)](.github/workflows/ci.yml)
+[![Tests](https://img.shields.io/badge/tests-906-brightgreen)](.github/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-proprietary-red)](LICENSE)
+
+## Status
+
+| Composant | Statut | Détails |
+|-----------|--------|--------|
+| 📱 iOS | ✅ Code complet | 128 fichiers, ~411 tests |
+| 🤖 Android | ✅ Code complet | 130 fichiers, ~432 tests |
+| ☁️ Backend | ✅ Code complet | 5 Edge Functions, ~23 tests |
+| 📦 CI/CD | ⏳ Config requise | Workflows prêts, secrets à ajouter |
+| 🚀 Production | ⏳ Build requis | Compilation + tests à valider |
 
 ## Architecture
 
@@ -56,7 +66,7 @@ graph TD
 ### Setup
 
 ```bash
-git clone https://github.com/shifai/shifai.git && cd shifai
+git clone https://github.com/kams2345/Shifai2.git && cd Shifai2
 
 # Backend
 cd shifai-backend && supabase start && supabase db reset
@@ -73,14 +83,14 @@ cd shifai-android && ./gradlew assembleDebug
 ### Run Tests
 
 ```bash
-# iOS (200+ tests)
-cd shifai-ios && fastlane test
+# iOS (~411 tests)
+xcodebuild test -scheme ShifAI -destination 'platform=iOS Simulator,name=iPhone 15 Pro'
 
-# Android (250+ tests)
-cd shifai-android && ./gradlew testDebugUnitTest
+# Android (~432 tests)
+cd shifai-android && ./gradlew test
 
-# Backend (13 tests)
-cd shifai-backend && deno test supabase/functions/tests/
+# Backend (~23 tests)
+cd shifai-backend/supabase/functions && deno test --allow-all
 ```
 
 ## Security & Privacy
@@ -100,15 +110,20 @@ See [SECURITY_AUDIT.md](SECURITY_AUDIT.md) for the full 50+ item checklist.
 
 | Document | Purpose |
 |----------|---------|
+| [BUILD_SETUP.md](BUILD_SETUP.md) | Setup reproductible (commandes exactes, env vars) |
+| [ARCHITECTURE.md](ARCHITECTURE.md) | Architecture technique détaillée |
+| [DEV_HANDOFF.md](DEV_HANDOFF.md) | Guide de revue pour développeurs |
+| [API_REFERENCE.md](API_REFERENCE.md) | Documentation API REST + Edge Functions |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Architecture rules, code style, PR process |
 | [ANALYTICS_EVENTS.md](ANALYTICS_EVENTS.md) | 22 privacy-safe events |
-| [PRIVACY_POLICY.md](PRIVACY_POLICY.md) | RGPD-compliant (French) |
-| [TERMS_OF_SERVICE.md](TERMS_OF_SERVICE.md) | App Store / Play Store |
+| [PRIVACY_POLICY.md](PRIVACY_POLICY.md) | Politique de confidentialité RGPD (français) |
+| [TERMS_OF_SERVICE.md](TERMS_OF_SERVICE.md) | Conditions d'utilisation App Store / Play Store |
 | [DPIA.md](DPIA.md) | Data Protection Impact Assessment |
 | [SECURITY_AUDIT.md](SECURITY_AUDIT.md) | Pre-launch security checklist |
+| [MIGRATION.md](MIGRATION.md) | Schema de versioning base de données |
+| [PERFORMANCE_BUDGET.md](PERFORMANCE_BUDGET.md) | Budgets de performance par opération |
 | [CHANGELOG.md](CHANGELOG.md) | Release notes |
 
 ## License
 
 Proprietary. All rights reserved.
-# Shifai2
