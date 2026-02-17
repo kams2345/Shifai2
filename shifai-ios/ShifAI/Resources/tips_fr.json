@@ -1,0 +1,122 @@
+[
+  {
+    "id": "tip_001",
+    "day": 1,
+    "title": "Bienvenue dans ton cycle ! 🌸",
+    "body": "Ton cycle est un signe vital, comme ta tension ou ta température. En le comprenant, tu peux mieux anticiper ton énergie, tes émotions et tes besoins.",
+    "category": "education",
+    "phase": null
+  },
+  {
+    "id": "tip_002",
+    "day": 2,
+    "title": "Les 4 phases de ton cycle",
+    "body": "Ton cycle se divise en 4 phases : menstruelle (règles), folliculaire (énergie montante), ovulatoire (pic d'énergie), lutéale (ralentissement). Chacune a ses forces.",
+    "category": "education",
+    "phase": null
+  },
+  {
+    "id": "tip_003",
+    "day": 3,
+    "title": "Phase menstruelle : écoute ton corps",
+    "body": "Pendant tes règles, ton corps se régénère. C'est normal de ressentir de la fatigue. Privilégie le repos, l'hydratation et les activités douces.",
+    "category": "education",
+    "phase": "menstrual"
+  },
+  {
+    "id": "tip_004",
+    "day": 4,
+    "title": "Phase folliculaire : l'énergie revient",
+    "body": "Après tes règles, les œstrogènes augmentent. Tu peux te sentir plus énergique et créative. C'est le bon moment pour commencer de nouveaux projets.",
+    "category": "education",
+    "phase": "follicular"
+  },
+  {
+    "id": "tip_005",
+    "day": 5,
+    "title": "Phase ovulatoire : ton pic",
+    "body": "Autour de l'ovulation, tu es à ton pic d'énergie communiative. C'est le moment idéal pour les présentations, les rendez-vous et les défis sportifs.",
+    "category": "education",
+    "phase": "ovulatory"
+  },
+  {
+    "id": "tip_006",
+    "day": 6,
+    "title": "Phase lutéale : prépare-toi",
+    "body": "La progestérone augmente et peut entraîner fatigue, ballonnements ou irritabilité. Pas de panique, c'est normal. Prévois des journées plus douces.",
+    "category": "education",
+    "phase": "luteal"
+  },
+  {
+    "id": "tip_007",
+    "day": 7,
+    "title": "Sommeil et cycle",
+    "body": "Ton besoin de sommeil varie selon ta phase. En phase lutéale, tu peux avoir besoin de 30 à 60 minutes de sommeil en plus. Écoute ton corps.",
+    "category": "education",
+    "phase": null
+  },
+  {
+    "id": "tip_008",
+    "day": 8,
+    "title": "Stress et cycle",
+    "body": "Le stress peut retarder l'ovulation et décaler tes règles. C'est pourquoi suivre ton stress dans ShifAI aide à comprendre les irrégularités.",
+    "category": "education",
+    "phase": null
+  },
+  {
+    "id": "tip_009",
+    "day": 9,
+    "title": "Alimentation et cycle",
+    "body": "Certains aliments anti-inflammatoires (oméga-3, curcuma, gingembre) peuvent aider à réduire les crampes. En phase lutéale, le magnésium peut aider.",
+    "category": "nutrition",
+    "phase": "luteal"
+  },
+  {
+    "id": "tip_010",
+    "day": 10,
+    "title": "Le pouvoir du tracking",
+    "body": "Plus tu logues régulièrement, plus ShifAI devient précis. Après 3 cycles complets, les prédictions s'affinent considérablement. Continue comme ça ! 🎯",
+    "category": "motivation",
+    "phase": null
+  },
+  {
+    "id": "quickwin_j1",
+    "day": null,
+    "title": "Premier jour logué ! 🎉",
+    "body": "Bravo ! Tu viens de poser la première pierre. La régularité est la clé : même un log rapide de 10 secondes fait la différence.",
+    "category": "quickwin",
+    "phase": null
+  },
+  {
+    "id": "quickwin_j3",
+    "day": null,
+    "title": "3 jours de suite ! 🔥",
+    "body": "Tu as déjà créé une habitude. ShifAI commence à détecter des tendances dans tes données. Continue !",
+    "category": "quickwin",
+    "phase": null
+  },
+  {
+    "id": "quickwin_j7",
+    "day": null,
+    "title": "Une semaine complète ! 💪",
+    "body": "7 jours de données ! Tes premières corrélations apparaissent. Va dans Intelligence pour voir tes premiers insights.",
+    "category": "quickwin",
+    "phase": null
+  },
+  {
+    "id": "quickwin_j14",
+    "day": null,
+    "title": "2 semaines ! L'IA s'active 🧠",
+    "body": "Avec 14+ jours de données, ShifAI active son moteur ML pour des prédictions plus précises. La magie commence.",
+    "category": "quickwin",
+    "phase": null
+  },
+  {
+    "id": "quickwin_cycle_1",
+    "day": null,
+    "title": "Premier cycle complet ! 🌙",
+    "body": "ShifAI a maintenant une vue complète d'un cycle. Les prédictions pour le prochain seront nettement plus fiables.",
+    "category": "quickwin",
+    "phase": null
+  }
+]

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- App Groups (Widget data sharing) -->
+    <key>com.apple.security.application-groups</key>
+    <array>
+        <string>group.com.shifai.shared</string>
+    </array>
+
+    <!-- Keychain Sharing -->
+    <key>keychain-access-groups</key>
+    <array>
+        <string>$(AppIdentifierPrefix)com.shifai.app</string>
+    </array>
+
+    <!-- HealthKit -->
+    <key>com.apple.developer.healthkit</key>
+    <true/>
+    <key>com.apple.developer.healthkit.access</key>
+    <array>
+        <string>health-records</string>
+    </array>
+
+    <!-- Background Processing -->
+    <key>com.apple.developer.associated-domains</key>
+    <array>
+        <string>applinks:shifai.app</string>
+    </array>
+</dict>
+</plist>

@@ -1,0 +1,154 @@
+/* ShifAI — Localizable.strings (FR)
+   S10-4: French localization — MVP primary language
+   All UI strings extracted for l10n */
+
+// ─── Onboarding ───
+"onboarding.welcome.title" = "Bienvenue sur ShifAI";
+"onboarding.welcome.subtitle" = "Ton cycle, ton intelligence.";
+"onboarding.privacy.title" = "Tes données restent les tiennes";
+"onboarding.privacy.badge.encryption" = "Chiffrement AES-256";
+"onboarding.privacy.badge.eu" = "Serveurs EU";
+"onboarding.privacy.badge.trackers" = "Zéro trackers";
+"onboarding.setup.title" = "Personnalise ton suivi";
+"onboarding.setup.cycle_length" = "Durée moyenne du cycle";
+"onboarding.setup.last_period" = "Dernières règles";
+"onboarding.setup.conditions" = "Conditions (optionnel)";
+"onboarding.setup.conditions.sopk" = "SOPK";
+"onboarding.setup.conditions.endometriosis" = "Endométriose";
+"onboarding.setup.conditions.none" = "Aucune / Pas sûre";
+"onboarding.quickwin.title" = "Ta première action";
+"onboarding.quickwin.cta" = "Commencer mon suivi";
+"onboarding.ready.title" = "C'est parti ! 🚀";
+"onboarding.next" = "Suivant";
+"onboarding.skip" = "Passer";
+"onboarding.done" = "Commencer";
+
+// ─── Dashboard ───
+"dashboard.cycle_day" = "Jour %d";
+"dashboard.phase.menstrual" = "Menstruelle";
+"dashboard.phase.follicular" = "Folliculaire";
+"dashboard.phase.ovulatory" = "Ovulatoire";
+"dashboard.phase.luteal" = "Lutéale";
+"dashboard.energy_forecast" = "Énergie prévue";
+"dashboard.next_period" = "Prochaines règles dans ~%d jours";
+"dashboard.quick_log" = "Log rapide";
+"dashboard.prediction_preview" = "Prédiction";
+
+// ─── Tracking ───
+"tracking.title" = "Suivi du jour";
+"tracking.flow" = "Flux";
+"tracking.flow.none" = "Aucun";
+"tracking.flow.light" = "Léger";
+"tracking.flow.medium" = "Moyen";
+"tracking.flow.heavy" = "Abondant";
+"tracking.mood" = "Humeur";
+"tracking.energy" = "Énergie";
+"tracking.sleep" = "Sommeil (heures)";
+"tracking.stress" = "Stress";
+"tracking.symptoms" = "Symptômes";
+"tracking.body_map" = "Body Map";
+"tracking.body_map.hint" = "Touche les zones douloureuses";
+"tracking.notes" = "Notes";
+"tracking.save" = "Enregistrer";
+"tracking.saved" = "Enregistré ✓";
+
+// ─── Symptoms ───
+"symptom.cramps" = "Crampes";
+"symptom.headache" = "Maux de tête";
+"symptom.migraine" = "Migraine";
+"symptom.fatigue" = "Fatigue";
+"symptom.bloating" = "Ballonnements";
+"symptom.nausea" = "Nausées";
+"symptom.backpain" = "Mal de dos";
+"symptom.breast_tenderness" = "Seins sensibles";
+"symptom.acne" = "Acné";
+"symptom.insomnia" = "Insomnie";
+"symptom.hot_flashes" = "Bouffées de chaleur";
+"symptom.dizziness" = "Vertiges";
+"symptom.constipation" = "Constipation";
+"symptom.diarrhea" = "Diarrhée";
+"symptom.anxiety" = "Anxiété";
+"symptom.irritability" = "Irritabilité";
+"symptom.mood_swings" = "Changements d'humeur";
+"symptom.cravings" = "Envies alimentaires";
+"symptom.joint_pain" = "Douleurs articulaires";
+"symptom.pelvic_pain" = "Douleurs pelviennes";
+
+// ─── Insights ───
+"insights.title" = "Intelligence";
+"insights.predictions" = "Prédictions";
+"insights.correlations" = "Corrélations";
+"insights.recommendations" = "Recommandations";
+"insights.confidence" = "Confiance: %d%%";
+"insights.powered_by" = "Basé sur %d jours de données";
+"insights.feedback.accurate" = "✅ Précis";
+"insights.feedback.early" = "⬆️ Trop tôt";
+"insights.feedback.late" = "⬇️ Trop tard";
+"insights.feedback.wrong" = "❌ Incorrect";
+
+// ─── Export ───
+"export.title" = "Export Médical";
+"export.template.sopk" = "SOPK";
+"export.template.endometriosis" = "Endométriose";
+"export.template.custom" = "Personnalisé";
+"export.date_range" = "Période";
+"export.3months" = "3 mois";
+"export.6months" = "6 mois";
+"export.12months" = "12 mois";
+"export.generate" = "Générer le PDF";
+"export.share" = "Partager";
+"export.disclaimer" = "Ce document est informatif uniquement";
+
+// ─── Settings ───
+"settings.title" = "Réglages";
+"settings.profile" = "Mon Profil";
+"settings.sync" = "Synchronisation";
+"settings.sync.cloud" = "Sync Cloud";
+"settings.sync.cloud.description" = "Données chiffrées. Le serveur ne peut pas les lire.";
+"settings.sync.now" = "Synchroniser maintenant";
+"settings.sync.last" = "Dernière sync: %@";
+"settings.sync.never" = "Jamais synchronisé";
+"settings.notifications" = "Notifications";
+"settings.notifications.daily_reminder" = "Rappel quotidien";
+"settings.notifications.daily_reminder.description" = "Rappel pour logger tes symptômes";
+"settings.privacy" = "Confidentialité & Sécurité";
+"settings.privacy.biometric" = "Verrouillage biométrique";
+"settings.privacy.autolock" = "Auto-lock";
+"settings.privacy.widget" = "Mode privé widget";
+"settings.privacy.widget.description" = "Floute les données sur l'écran d'accueil";
+"settings.data" = "Mes Données";
+"settings.data.export_csv" = "Exporter mes données (CSV)";
+"settings.data.export_pdf" = "Export médical (PDF)";
+"settings.data.delete" = "Supprimer mon compte";
+"settings.data.delete.title" = "Supprimer mon compte";
+"settings.data.delete.message" = "Es-tu sûre ? Cette action est irréversible. Toutes tes données seront supprimées.";
+"settings.data.delete.confirm" = "Supprimer tout";
+"settings.data.delete.cancel" = "Annuler";
+"settings.about" = "À propos";
+"settings.about.version" = "Version";
+"settings.about.privacy_policy" = "Politique de confidentialité";
+"settings.about.terms" = "Conditions d'utilisation";
+"settings.about.bug_report" = "Signaler un bug";
+
+// ─── Notifications ───
+"notification.prediction.period.title" = "Règles prévues dans ~%d jours";
+"notification.prediction.period.body" = "Période estimée: %@. Prépare-toi ☁️";
+"notification.prediction.ovulation.title" = "Fenêtre d'ovulation dans ~%d jours";
+"notification.prediction.ovulation.body" = "Phase la plus fertile prévue bientôt 🌸";
+"notification.recommendation.title" = "☁️ %@ prévue demain";
+"notification.action.follow" = "Oui, ajusté ✅";
+"notification.action.skip" = "Pas cette fois";
+
+// ─── Quick Wins ───
+"quickwin.j1.title" = "Jour 1 complété ! 🎉";
+"quickwin.j1.body" = "Premier pas vers la compréhension de ton cycle.";
+"quickwin.j3.title" = "3 jours de suite ! 🔥";
+"quickwin.j3.body" = "La constance est la clé.";
+
+// ─── Common ───
+"common.cancel" = "Annuler";
+"common.save" = "Enregistrer";
+"common.done" = "Terminé";
+"common.loading" = "Chargement...";
+"common.error" = "Erreur";
+"common.retry" = "Réessayer";

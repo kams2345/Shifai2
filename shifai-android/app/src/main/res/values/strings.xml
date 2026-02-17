@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">ShifAI</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Bienvenue sur ShifAI</string>
+    <string name="onboarding_welcome_subtitle">Ton cycle, ton intelligence.</string>
+    <string name="onboarding_skip">Passer</string>
+    <string name="onboarding_next">Suivant</string>
+    <string name="onboarding_done">C\'est parti !</string>
+    <string name="onboarding_privacy_title">Ta vie privée d\'abord</string>
+    <string name="onboarding_privacy_encryption">Chiffrement AES-256</string>
+    <string name="onboarding_privacy_eu">Serveurs EU uniquement</string>
+    <string name="onboarding_privacy_trackers">Zéro trackers</string>
+    <string name="onboarding_setup_title">Ton profil</string>
+    <string name="onboarding_setup_cycle_length">Durée moyenne de ton cycle</string>
+    <string name="onboarding_setup_conditions">Conditions connues</string>
+    <string name="onboarding_setup_sopk">SOPK</string>
+    <string name="onboarding_setup_endometriosis">Endométriose</string>
+    <string name="onboarding_setup_none">Aucune / Je ne sais pas</string>
+    <string name="onboarding_quickwin_title">Ta première action</string>
+    <string name="onboarding_ready_title">Tu es prête !</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="dashboard_greeting">Bonjour 👋</string>
+    <string name="dashboard_cycle_day">Jour</string>
+    <string name="dashboard_quick_log">Log rapide</string>
+
+    <!-- Tracking -->
+    <string name="tracking_title">Suivi du jour</string>
+    <string name="tracking_flow">Flux</string>
+    <string name="tracking_flow_none">Aucun</string>
+    <string name="tracking_flow_light">Léger</string>
+    <string name="tracking_flow_medium">Moyen</string>
+    <string name="tracking_flow_heavy">Abondant</string>
+    <string name="tracking_mood">Humeur</string>
+    <string name="tracking_energy">Énergie</string>
+    <string name="tracking_sleep">Sommeil</string>
+    <string name="tracking_stress">Stress</string>
+    <string name="tracking_symptoms">Symptômes</string>
+    <string name="tracking_notes">Notes</string>
+    <string name="tracking_save">Sauvegarder</string>
+    <string name="tracking_saved">Sauvegardé ✓</string>
+
+    <!-- Insights -->
+    <string name="insights_title">Intelligence</string>
+    <string name="insights_predictions">Prédictions</string>
+    <string name="insights_correlations">Corrélations</string>
+    <string name="insights_recommendations">Conseils</string>
+    <string name="insights_feedback_accurate">✅ Correct</string>
+    <string name="insights_feedback_early">⏩ Trop tôt</string>
+    <string name="insights_feedback_late">⏪ Trop tard</string>
+    <string name="insights_feedback_wrong">❌ Faux</string>
+
+    <!-- Export -->
+    <string name="export_title">Export médical</string>
+    <string name="export_template_sopk">SOPK</string>
+    <string name="export_template_endometriosis">Endométriose</string>
+    <string name="export_template_custom">Personnalisé</string>
+    <string name="export_date_range">Période</string>
+    <string name="export_generate">Générer PDF</string>
+    <string name="export_share">Partager</string>
+    <string name="export_disclaimer">Ce document est un outil d\'aide au dialogue médical. Il ne constitue pas un diagnostic.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Réglages</string>
+    <string name="settings_profile">Profil</string>
+    <string name="settings_sync">Synchronisation</string>
+    <string name="settings_sync_cloud">Sauvegarde cloud chiffrée</string>
+    <string name="settings_sync_cloud_description">Tes données sont chiffrées avant l\'envoi</string>
+    <string name="settings_sync_now">Synchroniser maintenant</string>
+    <string name="settings_sync_never">Jamais synchronisé</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_daily_reminder">Rappel quotidien</string>
+    <string name="settings_daily_reminder_description">Un rappel doux pour logger tes données</string>
+    <string name="settings_privacy">Vie privée &amp; sécurité</string>
+    <string name="settings_privacy_biometric">Verrouillage biométrique</string>
+    <string name="settings_privacy_widget">Mode privé widget</string>
+    <string name="settings_privacy_widget_description">Masque les données sensibles sur l\'écran d\'accueil</string>
+    <string name="settings_data">Données</string>
+    <string name="settings_export_csv">Exporter mes données (CSV)</string>
+    <string name="settings_export_pdf">Exporter en PDF médical</string>
+    <string name="settings_delete_account">Supprimer mon compte</string>
+    <string name="settings_delete_title">Supprimer ton compte ?</string>
+    <string name="settings_delete_message">Toutes tes données seront définitivement supprimées. Cette action est irréversible.</string>
+    <string name="settings_delete_confirm">Supprimer définitivement</string>
+    <string name="settings_about">À propos</string>
+    <string name="settings_version">Version</string>
+    <string name="settings_privacy_policy">Politique de confidentialité</string>
+    <string name="settings_terms">Conditions d\'utilisation</string>
+    <string name="settings_bug_report">Signaler un bug</string>
+
+    <!-- Common -->
+    <string name="common_cancel">Annuler</string>
+    <string name="common_save">Sauvegarder</string>
+    <string name="common_ok">OK</string>
+    <string name="common_error">Erreur</string>
+    <string name="common_loading">Chargement…</string>
+</resources>

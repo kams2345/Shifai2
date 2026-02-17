@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fallback layout for Glance widget (required by widget_info.xml) -->
+<!-- Glance overrides this with Compose UI at runtime -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#0F0B1E"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ShifAI"
+        android:textColor="#7C5CFC"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chargement…"
+        android:textColor="#80FFFFFF"
+        android:textSize="12sp"
+        android:layout_marginTop="4dp" />
+</LinearLayout>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ShifAI — strings.xml (FR) — S10-4: French localization -->
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Bienvenue sur ShifAI</string>
+    <string name="onboarding_welcome_subtitle">Ton cycle, ton intelligence.</string>
+    <string name="onboarding_privacy_title">Tes données restent les tiennes</string>
+    <string name="onboarding_privacy_encryption">Chiffrement AES-256</string>
+    <string name="onboarding_privacy_eu">Serveurs EU</string>
+    <string name="onboarding_privacy_trackers">Zéro trackers</string>
+    <string name="onboarding_setup_title">Personnalise ton suivi</string>
+    <string name="onboarding_setup_cycle_length">Durée moyenne du cycle</string>
+    <string name="onboarding_setup_last_period">Dernières règles</string>
+    <string name="onboarding_setup_conditions">Conditions (optionnel)</string>
+    <string name="onboarding_setup_sopk">SOPK</string>
+    <string name="onboarding_setup_endometriosis">Endométriose</string>
+    <string name="onboarding_setup_none">Aucune / Pas sûre</string>
+    <string name="onboarding_quickwin_title">Ta première action</string>
+    <string name="onboarding_quickwin_cta">Commencer mon suivi</string>
+    <string name="onboarding_ready_title">C\'est parti ! 🚀</string>
+    <string name="onboarding_next">Suivant</string>
+    <string name="onboarding_skip">Passer</string>
+    <string name="onboarding_done">Commencer</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_cycle_day">Jour %d</string>
+    <string name="dashboard_phase_menstrual">Menstruelle</string>
+    <string name="dashboard_phase_follicular">Folliculaire</string>
+    <string name="dashboard_phase_ovulatory">Ovulatoire</string>
+    <string name="dashboard_phase_luteal">Lutéale</string>
+    <string name="dashboard_energy_forecast">Énergie prévue</string>
+    <string name="dashboard_next_period">Prochaines règles dans ~%d jours</string>
+    <string name="dashboard_quick_log">Log rapide</string>
+
+    <!-- Tracking -->
+    <string name="tracking_title">Suivi du jour</string>
+    <string name="tracking_flow">Flux</string>
+    <string name="tracking_flow_none">Aucun</string>
+    <string name="tracking_flow_light">Léger</string>
+    <string name="tracking_flow_medium">Moyen</string>
+    <string name="tracking_flow_heavy">Abondant</string>
+    <string name="tracking_mood">Humeur</string>
+    <string name="tracking_energy">Énergie</string>
+    <string name="tracking_sleep">Sommeil (heures)</string>
+    <string name="tracking_stress">Stress</string>
+    <string name="tracking_symptoms">Symptômes</string>
+    <string name="tracking_body_map">Body Map</string>
+    <string name="tracking_body_map_hint">Touche les zones douloureuses</string>
+    <string name="tracking_notes">Notes</string>
+    <string name="tracking_save">Enregistrer</string>
+    <string name="tracking_saved">Enregistré ✓</string>
+
+    <!-- Symptoms -->
+    <string name="symptom_cramps">Crampes</string>
+    <string name="symptom_headache">Maux de tête</string>
+    <string name="symptom_migraine">Migraine</string>
+    <string name="symptom_fatigue">Fatigue</string>
+    <string name="symptom_bloating">Ballonnements</string>
+    <string name="symptom_nausea">Nausées</string>
+    <string name="symptom_backpain">Mal de dos</string>
+    <string name="symptom_breast_tenderness">Seins sensibles</string>
+    <string name="symptom_acne">Acné</string>
+    <string name="symptom_insomnia">Insomnie</string>
+    <string name="symptom_hot_flashes">Bouffées de chaleur</string>
+    <string name="symptom_dizziness">Vertiges</string>
+    <string name="symptom_constipation">Constipation</string>
+    <string name="symptom_diarrhea">Diarrhée</string>
+    <string name="symptom_anxiety">Anxiété</string>
+    <string name="symptom_irritability">Irritabilité</string>
+    <string name="symptom_mood_swings">Changements d\'humeur</string>
+    <string name="symptom_cravings">Envies alimentaires</string>
+    <string name="symptom_joint_pain">Douleurs articulaires</string>
+    <string name="symptom_pelvic_pain">Douleurs pelviennes</string>
+
+    <!-- Insights -->
+    <string name="insights_title">Intelligence</string>
+    <string name="insights_predictions">Prédictions</string>
+    <string name="insights_correlations">Corrélations</string>
+    <string name="insights_recommendations">Recommandations</string>
+    <string name="insights_confidence">Confiance: %d%%</string>
+    <string name="insights_powered_by">Basé sur %d jours de données</string>
+    <string name="insights_feedback_accurate">✅ Précis</string>
+    <string name="insights_feedback_early">⬆️ Trop tôt</string>
+    <string name="insights_feedback_late">⬇️ Trop tard</string>
+    <string name="insights_feedback_wrong">❌ Incorrect</string>
+
+    <!-- Export -->
+    <string name="export_title">Export Médical</string>
+    <string name="export_template_sopk">SOPK</string>
+    <string name="export_template_endometriosis">Endométriose</string>
+    <string name="export_template_custom">Personnalisé</string>
+    <string name="export_date_range">Période</string>
+    <string name="export_3months">3 mois</string>
+    <string name="export_6months">6 mois</string>
+    <string name="export_12months">12 mois</string>
+    <string name="export_generate">Générer le PDF</string>
+    <string name="export_share">Partager</string>
+    <string name="export_disclaimer">Ce document est informatif uniquement</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Réglages</string>
+    <string name="settings_profile">Mon Profil</string>
+    <string name="settings_sync">Synchronisation</string>
+    <string name="settings_sync_cloud">Sync Cloud</string>
+    <string name="settings_sync_cloud_description">Données chiffrées. Le serveur ne peut pas les lire.</string>
+    <string name="settings_sync_now">Synchroniser maintenant</string>
+    <string name="settings_sync_last">Dernière sync: %s</string>
+    <string name="settings_sync_never">Jamais synchronisé</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_daily_reminder">Rappel quotidien</string>
+    <string name="settings_daily_reminder_description">Rappel pour logger tes symptômes</string>
+    <string name="settings_privacy">Confidentialité &amp; Sécurité</string>
+    <string name="settings_privacy_biometric">Verrouillage biométrique</string>
+    <string name="settings_privacy_autolock">Auto-lock</string>
+    <string name="settings_privacy_widget">Mode privé widget</string>
+    <string name="settings_privacy_widget_description">Floute les données sur l\'écran d\'accueil</string>
+    <string name="settings_data">Mes Données</string>
+    <string name="settings_export_csv">Exporter mes données (CSV)</string>
+    <string name="settings_export_pdf">Export médical (PDF)</string>
+    <string name="settings_delete_account">Supprimer mon compte</string>
+    <string name="settings_delete_title">Supprimer mon compte</string>
+    <string name="settings_delete_message">Es-tu sûre ? Cette action est irréversible. Toutes tes données seront supprimées.</string>
+    <string name="settings_delete_confirm">Supprimer tout</string>
+    <string name="settings_about">À propos</string>
+    <string name="settings_version">Version</string>
+    <string name="settings_privacy_policy">Politique de confidentialité</string>
+    <string name="settings_terms">Conditions d\'utilisation</string>
+    <string name="settings_bug_report">Signaler un bug</string>
+
+    <!-- Notifications -->
+    <string name="notification_prediction_period_title">Règles prévues dans ~%d jours</string>
+    <string name="notification_prediction_period_body">Période estimée: %s. Prépare-toi ☁️</string>
+    <string name="notification_prediction_ovulation_title">Fenêtre d\'ovulation dans ~%d jours</string>
+    <string name="notification_prediction_ovulation_body">Phase la plus fertile prévue bientôt 🌸</string>
+    <string name="notification_recommendation_title">☁️ %s prévue demain</string>
+    <string name="notification_action_follow">Oui, ajusté ✅</string>
+    <string name="notification_action_skip">Pas cette fois</string>
+
+    <!-- Quick Wins -->
+    <string name="quickwin_j1_title">Jour 1 complété ! 🎉</string>
+    <string name="quickwin_j1_body">Premier pas vers la compréhension de ton cycle.</string>
+    <string name="quickwin_j3_title">3 jours de suite ! 🔥</string>
+    <string name="quickwin_j3_body">La constance est la clé.</string>
+
+    <!-- Common -->
+    <string name="common_cancel">Annuler</string>
+    <string name="common_save">Enregistrer</string>
+    <string name="common_done">Terminé</string>
+    <string name="common_loading">Chargement…</string>
+    <string name="common_error">Erreur</string>
+    <string name="common_retry">Réessayer</string>
+</resources>

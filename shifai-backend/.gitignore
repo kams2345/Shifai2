@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.cache/
+
+# Supabase local
+.supabase/
+.temp/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*~
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Secrets — NEVER COMMIT
+supabase/.env
+service_role_key.txt

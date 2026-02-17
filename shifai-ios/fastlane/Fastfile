@@ -1,0 +1,53 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Run tests"
+  lane :test do
+    scan(
+      scheme: "ShifAI",
+      device: "iPhone 15",
+      clean: true,
+      code_coverage: true
+    )
+  end
+
+  desc "Build for TestFlight (beta)"
+  lane :beta do
+    increment_build_number
+    build_app(
+      scheme: "ShifAI",
+      export_method: "app-store",
+      clean: true
+    )
+    upload_to_testflight(
+      skip_waiting_for_build_processing: true,
+      notify_external_testers: false
+    )
+  end
+
+  desc "Submit to App Store"
+  lane :release do
+    increment_build_number
+    build_app(
+      scheme: "ShifAI",
+      export_method: "app-store",
+      clean: true
+    )
+    upload_to_app_store(
+      force: true,
+      submit_for_review: true,
+      automatic_release: false,
+      precheck_include_in_app_purchases: false
+    )
+  end
+
+  desc "Screenshots for App Store"
+  lane :screenshots do
+    capture_screenshots(
+      scheme: "ShifAIUITests",
+      devices: ["iPhone 15 Pro", "iPhone 15 Pro Max", "iPad Pro (12.9-inch)"],
+      languages: ["fr-FR"],
+      clear_previous_screenshots: true
+    )
+  end
+end

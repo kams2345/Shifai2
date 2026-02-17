@@ -1,0 +1,42 @@
+# Xcode
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+xcuserdata/
+build/
+DerivedData/
+*.moved-aside
+*.ipa
+
+# Swift Package Manager
+.build/
+Packages/
+
+# CocoaPods
+Pods/
+
+# Secrets — NEVER COMMIT
+Secrets.xcconfig
+*.xcconfig.local
+
+# macOS
+.DS_Store
+*.swp
+*~.nib
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Code coverage
+*.gcno
+*.gcda
+
+# Instruments
+*.trace
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace

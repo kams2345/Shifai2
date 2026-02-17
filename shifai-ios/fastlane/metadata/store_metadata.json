@@ -1,0 +1,13 @@
+{
+    "fr-FR": {
+        "name": "ShifAI — Suivi de Cycle Intelligent",
+        "subtitle": "Ton cycle, ton intelligence",
+        "description": "ShifAI est l'application de suivi de cycle menstruel qui respecte ta vie privée. Grâce à l'intelligence artificielle embarquée, elle analyse tes patterns et t'aide à mieux comprendre ton corps — sans jamais partager tes données.\n\n▸ SUIVI COMPLET\n• Cycle, flux, 29 symptômes, body map\n• Humeur, énergie, sommeil, stress\n• Rappels intelligents anti-spam\n\n▸ IA EMBARQUÉE\n• Prédictions de cycle (85%+ de précision)\n• Corrélations symptômes-cycle\n• Quick wins et recommandations personnalisées\n• L'IA tourne 100% sur ton téléphone\n\n▸ EXPORT MÉDICAL\n• Rapports PDF (SOPK, Endométriose)\n• Formats personnalisables\n• Partage sécurisé avec lien temporaire\n\n▸ PRIVACY-FIRST\n• Chiffrement AES-256-GCM\n• Architecture zero-knowledge\n• Serveurs exclusivement en UE\n• Aucun tracker, aucun cookie\n• Conformité RGPD totale\n\n▸ WIDGETS\n• Cycle day, phase, énergie\n• 4 tailles disponibles\n• Écran de verrouillage (iOS)\n\n▸ SYNCHRONISATION\n• Données chiffrées entre appareils\n• Résolution de conflits\n• Fonctionne hors-ligne\n\nShifAI ne vend pas tes données. Jamais.",
+        "keywords": "cycle,menstruel,suivi,règles,santé,femme,prédiction,symptômes,sopk,endométriose,ia,privé,widget,export,médical",
+        "primary_category": "Health & Fitness",
+        "secondary_category": "Medical",
+        "privacy_url": "https://shifai.app/privacy",
+        "support_url": "https://shifai.app/support",
+        "marketing_url": "https://shifai.app"
+    }
+}

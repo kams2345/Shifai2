@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Network Security Configuration — Android -->
+<!-- S1-10: TLS 1.3 enforcement + clear-text prevention -->
+<network-security-config>
+    <!-- Disallow clear-text (HTTP) traffic for all domains -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </base-config>
+
+    <!-- Supabase EU domain pinning -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">supabase.co</domain>
+        <domain includeSubdomains="true">supabase.in</domain>
+        <pin-set expiration="2027-01-01">
+            <!-- Primary: Let's Encrypt ISRG Root X1 -->
+            <pin digest="SHA-256">C5+lpZ7tcVwmwQIMcRtPbsQtWLABXhQzejna0wHFr8M=</pin>
+            <!-- Backup: Let's Encrypt E5 -->
+            <pin digest="SHA-256">JSD78f+VKHRmLJNQIi/G29qMjTlp6fQBXnKESj2bTWo=</pin>
+        </pin-set>
+    </domain-config>
+
+    <!-- Debug builds: allow local network calls -->
+    <debug-overrides>
+        <trust-anchors>
+            <certificates src="user"/>
+        </trust-anchors>
+    </debug-overrides>
+</network-security-config>

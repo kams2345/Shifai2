@@ -1,0 +1,45 @@
+[project]
+id = "shifai-eu"
+name = "ShifAI"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public"]
+
+[db]
+port = 54322
+major_version = 15
+
+[db.pooler]
+enabled = true
+port = 54329
+pool_mode = "transaction"
+default_pool_size = 20
+
+[auth]
+enabled = true
+site_url = "https://shifai.app"
+additional_redirect_urls = ["shifai://auth/callback"]
+
+[auth.email]
+enable_signup = true
+double_confirm_changes = true
+enable_confirmations = true
+
+[auth.external.apple]
+enabled = true
+
+[storage]
+enabled = true
+file_size_limit = "10MB"
+
+[edge_runtime]
+enabled = true
+policy = "per_worker"
+
+[analytics]
+enabled = false
+
+# EU-only deployment — GDPR compliance
+# All data stays in eu-west-1

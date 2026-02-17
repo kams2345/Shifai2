@@ -1,0 +1,45 @@
+# Dependabot — GitHub dependency management
+version: 2
+updates:
+  # iOS (Swift Package Manager)
+  - package-ecosystem: "swift"
+    directory: "/shifai-ios"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+      - "ios"
+
+  # Android (Gradle)
+  - package-ecosystem: "gradle"
+    directory: "/shifai-android"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+      - "android"
+
+  # Backend (npm for Deno)
+  - package-ecosystem: "npm"
+    directory: "/shifai-backend"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    open-pull-requests-limit: 3
+    labels:
+      - "dependencies"
+      - "backend"
+
+  # GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 3
+    labels:
+      - "dependencies"
+      - "ci"

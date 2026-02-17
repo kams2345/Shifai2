@@ -1,0 +1,29 @@
+# CODEOWNERS — ShifAI Monorepo
+# Assign PR reviewers by path
+
+# Default — team lead reviews everything
+* @shifai/core-team
+
+# ─── iOS ───
+/shifai-ios/ @shifai/ios-team
+/shifai-ios/ShifAI/Domain/ @shifai/ios-team @shifai/data-science
+
+# ─── Android ───
+/shifai-android/ @shifai/android-team
+/shifai-android/app/src/main/java/com/shifai/domain/ @shifai/android-team @shifai/data-science
+
+# ─── Backend ───
+/shifai-backend/ @shifai/backend-team
+/shifai-backend/supabase/migrations/ @shifai/backend-team @shifai/security
+
+# ─── Security-Sensitive ───
+**/Encryption* @shifai/security
+**/SupabaseClient* @shifai/security
+**/network_security_config.xml @shifai/security
+DPIA.md @shifai/security @shifai/legal
+PRIVACY_POLICY.md @shifai/legal
+TERMS_OF_SERVICE.md @shifai/legal
+SECURITY_AUDIT.md @shifai/security
+
+# ─── CI/CD ───
+/.github/ @shifai/devops

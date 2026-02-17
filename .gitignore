@@ -1,0 +1,42 @@
+# ShifAI Monorepo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*~
+
+# macOS
+.DS_Store
+*.DS_Store
+Thumbs.db
+
+# Environment secrets
+.env
+.env.local
+.env.*.local
+*.xcconfig.local
+local.properties
+
+# Build outputs
+build/
+DerivedData/
+*.ipa
+*.apk
+*.aab
+
+# Dependencies
+node_modules/
+Pods/
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+*.gcno
+*.gcda
+
+# Artifacts
+*.dSYM
+*.dSYM.zip
