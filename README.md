@@ -1,6 +1,6 @@
 # ShifAI 🌙
 
-**Suivi de cycle menstruel intelligent** — privacy-first, AI-powered, offline-ready.
+**Rappel intelligent** — privacy-first, AI-powered, offline-ready.
 
 [![iOS](https://img.shields.io/badge/iOS-17%2B-blue)](shifai-ios/)
 [![Android](https://img.shields.io/badge/Android-API%2029%2B-green)](shifai-android/)
